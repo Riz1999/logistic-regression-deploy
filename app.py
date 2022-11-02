@@ -37,7 +37,7 @@ if __name__ == "__main__":
     clntApp = ClientApi()
     host = '0.0.0.0'
     port = 5000
-    app.run(debug=True)
+    app.run(debug=False)
     #httpd = simple_server.make_server(host, port, app)
     # print("Serving on %s %d" % (host, port))
     #httpd.serve_forever()
